@@ -24,3 +24,4 @@ Route::post('search/name', 'CongviecchinhController@getSearchAjax')->name('searc
 Route::post('searchcv/name', 'CvchitietController@getSearchAjax')->name('searchcv');
 Route::post('congviecchinh/updatemulti', 'CongviecchinhController@updateMulti');
 Route::resource('/cvchitiet', 'CvchitietController');
+Route::resource('/psccanhan', 'PsccanhanController');
